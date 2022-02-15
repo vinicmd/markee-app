@@ -15,12 +15,10 @@ function Sidebar () {
       id: '2',
       name: 'LICENSING.md',
       content: 'Conteudo LICENSING',
-      active: true,
-      status: 'saved',
+      active: false,
+      status: 'editing',
     },
   ]
-
-  console.log('files', files)
 
   return (
     <S.Aside>
@@ -35,6 +33,7 @@ function Sidebar () {
       <S.Link href=''>
         <S.Button>+  Adicionar arquivo</S.Button>
       </S.Link>
+
     </S.Aside>
   )
 }
