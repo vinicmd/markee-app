@@ -19,6 +19,7 @@ function Sidebar () {
       status: 'editing',
     },
   ]
+  console.log(files)
 
   return (
     <S.Aside>
